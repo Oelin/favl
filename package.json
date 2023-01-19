@@ -1,0 +1,26 @@
+{
+  "name": "favl",
+  "version": "1.0.0",
+  "description": "A purely functional AVL tree implementation in JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oelin/favl.git"
+  },
+  "keywords": [
+    "avl-tree",
+    "binary-tree",
+    "algorithms",
+    "data-structures",
+    "functional-programming"
+  ],
+  "author": "Oelin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Oelin/favl/issues"
+  },
+  "homepage": "https://github.com/Oelin/favl#readme"
+}
