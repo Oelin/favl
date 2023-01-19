@@ -11,19 +11,19 @@ const favl = require('favl')
 
 // Tree creation...
 
-let tree = favl.AVLLeaf(5)
+let tree = favl.leaf(5)
 
 
 // Balanced insertion...
 
-tree = favl.AVLInsert(favl.AVLLeaf(6), tree)
-tree = favl.AVLInsert(favl.AVLLeaf(10), tree)
-tree = favl.AVLInsert(favl.AVLLeaf(4), tree)
+tree = favl.insert(favl.leaf(6), tree)
+tree = favl.insert(favl.leaf(10), tree)
+tree = favl.insert(favl.leaf(4), tree)
 
 
 // Balanced removal... 
 
-tree = favl.AVLRemove(favl.AVLLeaf(4), tree)
+tree = favl.remove(favl.leaf(4), tree)
 ```
 
 Note that every operation returns a *new* tree/node instance since state is immutable.
