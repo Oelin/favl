@@ -8,6 +8,7 @@ A purely functional AVL tree implementation in JavaScript. This library provides
 ```js
 const favl = require('favl')
 
+
 // Tree creation...
 
 let tree = favl.AVLLeaf(5)
@@ -24,3 +25,5 @@ tree = favl.AVLInsert(favl.AVLLeaf(4), tree)
 
 tree = favl.AVLRemove(favl.AVLLeaf(4), tree)
 ```
+
+Note that every operation returns a *new* tree/node instance since state is immutable.
